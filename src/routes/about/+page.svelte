@@ -1,11 +1,12 @@
 
 <script>
+	import profile from '$lib/images/profile.png';
     let nameReveal = false;
 </script>
 
 <div class="island" on:mouseenter={() => {nameReveal = true}} on:mouseleave={() => {nameReveal = false}}>
 	{#if nameReveal}
-	<img src="src\\routes\\profile.png" class="island-profile" alt="profile-img">
+	<img src={profile} class="island-profile" alt="profile-img">
 	<p class="island-title">프마</p>
 	{/if}
 </div>

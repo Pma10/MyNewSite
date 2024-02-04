@@ -1,10 +1,11 @@
 <script>
+	import profile from '$lib/images/profile.png';
     let nameReveal = false;
 </script>
 
 <div class="island" on:mouseenter={() => {nameReveal = true}} on:mouseleave={() => {nameReveal = false}}>
 	{#if nameReveal}
-	<img src="src\\routes\\profile.png" class="island-profile" alt="profile-img">
+	<img src={profile} class="island-profile" alt="profile-img">
 	<p class="island-title">프마</p>
 	{/if}
 </div>
@@ -17,13 +18,14 @@
 	</ul>
 </div>
 
-<div>
-	<h1>Pma</h1>
+<div >
+	<h1 class="index-content">Pma</h1>
 	<h3>Developer</h3>
 </div>
 
 <style>
 	@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+
 	:global(body){
 		height: 100vh;
 		display: flex;

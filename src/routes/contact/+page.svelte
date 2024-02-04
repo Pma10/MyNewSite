@@ -1,12 +1,13 @@
 
 <script>
     let nameReveal = false;
-
+	import profile from '$lib/images/profile.png';
+	import discord from '$lib/images/discord.png';
 </script>
 
 <div class="island" on:mouseenter={() => {nameReveal = true}} on:mouseleave={() => {nameReveal = false}}>
 	{#if nameReveal}
-	<img src="src\\routes\\profile.png" class="island-profile" alt="profile-img">
+	<img src={profile} class="island-profile" alt="profile-img">
 	<p class="island-title">프마</p>
 	{/if}
 </div>
@@ -21,7 +22,7 @@
 
 <div class="index-content">
 	<h1 >저에게 연락 가능한 연락처에요!</h1>
-	<h2><a href="https://discord.com/users/959696962523914260" target="_blank"><img src="src\\routes\\contact\\discord.png" width="60px" class="contact-img"></a></h2>
+	<h2><a href="https://discord.com/users/959696962523914260" target="_blank"><img src={discord} width="60px" class="contact-img"></a></h2>
 </div>
 
 <style>
