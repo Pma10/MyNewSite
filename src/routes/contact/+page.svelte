@@ -3,6 +3,7 @@
     let nameReveal = false;
 	import profile from '$lib/images/profile.png';
 	import discord from '$lib/images/discord.png';
+	
 </script>
 
 <div class="island" on:mouseenter={() => {nameReveal = true}} on:mouseleave={() => {nameReveal = false}}>
@@ -13,6 +14,7 @@
 </div>
 
 <div>
+	<script src="https://kit.fontawesome.com/6ef4982f48.js" crossorigin="anonymous"></script>
 	<ul class="nav-bar">
 		<li><a href="/">Home</a></li>
 		<li><a href="/about">About</a></li>
@@ -23,6 +25,7 @@
 <div class="index-content">
 	<h1 >저에게 연락 가능한 연락처에요!</h1>
 	<h2><a href="https://discord.com/users/959696962523914260" target="_blank"><img src={discord} width="60px" class="contact-img"></a></h2>
+
 </div>
 
 <style>

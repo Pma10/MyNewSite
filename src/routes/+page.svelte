@@ -1,6 +1,18 @@
 <script>
 	import profile from '$lib/images/profile.png';
+	import TypeIt from 'typeit'
+	import { onMount } from 'svelte';
     let nameReveal = false;
+	onMount(() => {
+    let subContent = document.getElementsByClassName('index-content-sub')[0]; // 요소를 HTMLElement로 캐스팅
+    if (subContent) {
+        new TypeIt(subContent, {
+            speed: 50,
+            loop: true,
+        }).type('Developer').pause(3000).delete(9).type('개발자').pause(2000).move(-3).type('바보 ').move(3).pause(3000).go();
+    }
+});
+
 </script>
 
 <div class="island" on:mouseenter={() => {nameReveal = true}} on:mouseleave={() => {nameReveal = false}}>
@@ -20,7 +32,7 @@
 
 <div >
 	<h1 class="index-content">Pma</h1>
-	<h3>Developer</h3>
+	<h3 class="index-content-sub"></h3>
 </div>
 
 <style>
