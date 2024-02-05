@@ -18,7 +18,7 @@
 	<ul class="nav-bar">
 		<li><a href="/">Home</a></li>
 		<li><a href="/about">About</a></li>
-		<li><a href="/contact">Contact</a></li>
+		<li><a href="/contact" class="nowSelected">Contact</a></li>
 	</ul>
 </div>
 
@@ -35,6 +35,11 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
+	}
+	.nowSelected {
+		color: #000000;
+		font-family: 'Pretendard Variable';
+		font-weight: 900;
 	}
 	.contact-img{
 		border-radius: 1rem;

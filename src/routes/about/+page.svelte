@@ -14,7 +14,7 @@
 <div>
 	<ul class="nav-bar">
 		<li><a href="/">Home</a></li>
-		<li><a href="/about">About</a></li>
+		<li><a href="/about" class="nowSelected">About</a></li>
 		<li><a href="/contact">Contact</a></li>
 	</ul>
 </div>
@@ -32,6 +32,11 @@
 		align-items: center;
 		justify-content: center;
         
+	}
+	.nowSelected {
+		color: #000000;
+		font-family: 'Pretendard Variable';
+		font-weight: 900;
 	}
     .name-highlight {
         color: #9de1c4;
