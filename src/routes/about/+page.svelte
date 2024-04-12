@@ -21,7 +21,7 @@
 
 <div class="index-content">
     <h1>제 이름은 <span class="name-highlight">프마</span>에요</h1>
-    <h2>개발자가 꿈인 중2죠</h2>
+    <h2>개발자가 꿈이죠!</h2>
 </div>
 
 <style>
