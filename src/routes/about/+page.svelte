@@ -31,6 +31,8 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		font-family: 'Pretendard Variable';
+		font-weight: 300;
         
 	}
 	.nowSelected {

@@ -35,7 +35,10 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		font-family: 'Pretendard Variable';
+		font-weight: 300;
 	}
+	
 	.nowSelected {
 		color: #000000;
 		font-family: 'Pretendard Variable';
@@ -97,6 +100,10 @@
 		width: 5rem;
 		border-radius: 1rem;
 		margin-left: 1rem;
+	}
+	.index-content{
+		font-family: 'Pretendard Variable';
+		font-weight: 900;
 	}
     @media (max-width: 768px) {
         .nav-bar {

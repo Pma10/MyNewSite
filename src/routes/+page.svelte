@@ -30,7 +30,7 @@
 	</ul>
 </div>
 
-<div >
+<div class="main-content">
 	<h1 class="index-content">Pma</h1>
 	<h3 class="index-content-sub"></h3>
 </div>
@@ -43,6 +43,12 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		font-family: 'Pretendard Variable';
+		font-weight: 300;
+	}
+	.main-content{
+		font-family: 'Pretendard Variable';
+		font-weight: 300;
 	}
 	.nowSelected {
 		color: #000000;
