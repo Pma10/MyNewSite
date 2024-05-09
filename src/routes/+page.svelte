@@ -2,6 +2,7 @@
 	import profile from '$lib/images/profile.png';
 	import TypeIt from 'typeit'
 	import { onMount } from 'svelte';
+
     let nameReveal = false;
 	onMount(() => {
     let subContent = document.getElementsByClassName('index-content-sub')[0]; // 요소를 HTMLElement로 캐스팅
